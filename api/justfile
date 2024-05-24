@@ -1,0 +1,42 @@
+port    := "/dev/ttyUSB0"
+venv    := "./.venv"
+pip     := venv / "bin/pip"
+python  := venv / "bin/python"
+pytest  := venv / "bin/pytest"
+rshell  := venv / "bin/rshell"
+esptool := venv / "bin/esptool.py"
+
+install: bootstrap
+	{{pip}} install --upgrade pip pytest esptool rshell
+
+bootstrap:
+	python3 -m venv {{venv}}
+
+clean:
+	rm -rf {{venv}} */__pycache__ .pytest_cache
+
+
+pip *args:
+	{{pip}} {{args}}
+
+python *args:
+	{{python}} {{args}}
+
+pytest *args:
+	{{pytest}} {{args}}
+
+rshell *args:
+	{{rshell}} -p {{port}} {{args}}
+
+esptool *args:
+	{{esptool}} -p {{port}} {{args}}
+
+
+repl:
+	{{rshell}} -p {{port}} --quiet repl
+
+sync:
+	{{rshell}} -p {{port}} --quiet rsync -m src /pyboard
+
+flash filename:
+	{{esptool}} -p {{port}} write_flash -e -fs detect 0 {{filename}}
