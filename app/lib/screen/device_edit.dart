@@ -1,9 +1,9 @@
-import 'package:client/controller/device.dart';
-import 'package:client/view/color_picker.dart';
+import 'package:bulbs/controller/device.dart';
+import 'package:bulbs/view/color_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:client/resources.dart';
-import 'package:client/model/device.dart';
-import 'package:client/view/device_delete_button.dart';
+import 'package:bulbs/resources.dart';
+import 'package:bulbs/model/device.dart';
+import 'package:bulbs/view/device_delete_button.dart';
 
 class DeviceEditScreen extends StatefulWidget {
   const DeviceEditScreen({

@@ -1,7 +1,7 @@
 import 'dart:convert';
-import 'package:client/util/converter.dart';
-import 'package:client/database/device.dart';
-import 'package:client/model/device.dart';
+import 'package:bulbs/util/converter.dart';
+import 'package:bulbs/database/device.dart';
+import 'package:bulbs/model/device.dart';
 import 'package:http/http.dart' as http;
 
 class DeviceController {

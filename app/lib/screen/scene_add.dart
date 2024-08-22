@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:client/resources.dart';
+import 'package:bulbs/resources.dart';
 
 class SceneAddScreen extends StatelessWidget {
   const SceneAddScreen({super.key});

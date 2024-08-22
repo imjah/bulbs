@@ -1,6 +1,6 @@
-import 'package:client/resources.dart';
-import 'package:client/controller/device.dart';
-import 'package:client/model/device.dart';
+import 'package:bulbs/resources.dart';
+import 'package:bulbs/controller/device.dart';
+import 'package:bulbs/model/device.dart';
 import 'package:flutter/material.dart';
 
 class DeviceAddForm extends StatefulWidget {

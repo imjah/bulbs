@@ -1,8 +1,8 @@
-import 'package:client/resources.dart';
-import 'package:client/screen/device_add.dart';
-import 'package:client/screen/scene_add.dart';
-import 'package:client/view/device_list.dart';
-import 'package:client/view/device_fetch_button.dart';
+import 'package:bulbs/resources.dart';
+import 'package:bulbs/screen/device_add.dart';
+import 'package:bulbs/screen/scene_add.dart';
+import 'package:bulbs/view/device_list.dart';
+import 'package:bulbs/view/device_fetch_button.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {

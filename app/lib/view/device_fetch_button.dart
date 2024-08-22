@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:client/resources.dart';
-import 'package:client/controller/device.dart';
+import 'package:bulbs/resources.dart';
+import 'package:bulbs/controller/device.dart';
 
 class DeviceFetchButton extends StatefulWidget {
   const DeviceFetchButton({super.key});

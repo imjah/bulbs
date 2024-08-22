@@ -1,7 +1,7 @@
-import 'package:client/controller/device.dart';
-import 'package:client/model/device.dart';
-import 'package:client/resources.dart';
-import 'package:client/view/device_list_item.dart';
+import 'package:bulbs/controller/device.dart';
+import 'package:bulbs/model/device.dart';
+import 'package:bulbs/resources.dart';
+import 'package:bulbs/view/device_list_item.dart';
 import 'package:flutter/material.dart';
 
 class DeviceList extends StatefulWidget {

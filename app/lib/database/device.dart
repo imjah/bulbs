@@ -1,5 +1,5 @@
 import 'package:sqflite/sqflite.dart';
-import 'package:client/model/device.dart';
+import 'package:bulbs/model/device.dart';
 
 class DeviceDatabase {
   static const _name = 'devices';

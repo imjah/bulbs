@@ -1,4 +1,4 @@
-import 'package:client/screen/home.dart';
+import 'package:bulbs/screen/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

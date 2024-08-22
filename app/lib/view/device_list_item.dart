@@ -1,8 +1,8 @@
-import 'package:client/model/device.dart';
-import 'package:client/resources.dart';
-import 'package:client/extension/color.dart';
-import 'package:client/view/text_icon.dart';
-import 'package:client/screen/device_edit.dart';
+import 'package:bulbs/model/device.dart';
+import 'package:bulbs/resources.dart';
+import 'package:bulbs/extension/color.dart';
+import 'package:bulbs/view/text_icon.dart';
+import 'package:bulbs/screen/device_edit.dart';
 import 'package:flutter/material.dart';
 
 class DeviceItem extends StatefulWidget {

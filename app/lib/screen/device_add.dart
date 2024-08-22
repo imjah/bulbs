@@ -1,5 +1,5 @@
-import 'package:client/resources.dart';
-import 'package:client/view/device_add_form.dart';
+import 'package:bulbs/resources.dart';
+import 'package:bulbs/view/device_add_form.dart';
 import 'package:flutter/material.dart';
 
 class DeviceAddScreen extends StatelessWidget {

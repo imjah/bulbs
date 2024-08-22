@@ -1,5 +1,5 @@
-import 'package:client/extension/color.dart';
-import 'package:client/util/converter.dart';
+import 'package:bulbs/extension/color.dart';
+import 'package:bulbs/util/converter.dart';
 import 'package:flutter/material.dart';
 
 class ColorPicker extends StatefulWidget {

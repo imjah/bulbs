@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:client/controller/device.dart';
-import 'package:client/model/device.dart';
+import 'package:bulbs/controller/device.dart';
+import 'package:bulbs/model/device.dart';
 
 class DeviceDeleteButton extends StatefulWidget {
   const DeviceDeleteButton({
